@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Registration</title>
+</head>
+<body>
+
+<form action="dis" method="post">
+
+    Employee Id: <input type="text" name="EId"><br>
+    Employee Name: <input type="text" name="EName"><br>
+    Employee Address: <input type="text" name="EAdd"><br>
+    Employee Salary: <input type="number" name="ESal"><br>
+
+    <br>
+
+    <div id="genderDiv">
+        <label>Gender:</label> <br>
+        <input type="radio" id="male" name="gender" value="m" checked> <label for="male">Male</label> &nbsp;
+        <input type="radio" id="female" name="gender" value="f"> <label for="female">Female</label> &nbsp;
+        <input type="radio" id="others" name="gender" value="o"> <label for="others">Others</label>
+    </div>
+
+    <br>
+
+    <div id="hobbiesDiv">
+        <label>Employee Hobbies:</label> <br>
+        <input type="checkbox" id="writer" name="hobbies" value="Writer"> <label for="writer">Writer</label> &nbsp;
+        <input type="checkbox" id="coder" name="hobbies" value="Coder"> <label for="coder">Coder</label> &nbsp;
+        <input type="checkbox" id="sales" name="hobbies" value="Sales"> <label for="sales">Sales</label>
+    </div>
+
+    <br>
+
+    <div id="buttonDiv">
+        <button type="submit">Register Now</button>
+    </div>
+
+</form>
+
+</body>
+</html>
